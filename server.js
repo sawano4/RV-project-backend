@@ -28,6 +28,14 @@ const demoBuildingIds = new Set([
   "513392176"
 ]);
 
+const defaultStatRanges = {
+  electricity: [58, 92],
+  water: [58, 92],
+  structure: [64, 94],
+  fireRisk: [10, 38],
+  pollution: [12, 42]
+};
+
 const incidentNames = {
   poweroutage: "PowerOutage",
   power: "PowerOutage",
@@ -52,6 +60,7 @@ let buildings = ensureBuildingState(readBuildings());
 let lastSimulationAt = Date.now();
 let lastIncidentAt = Date.now();
 resetStartupState(buildings);
+writeBuildings(buildings);
 
 function readBuildings() {
   return JSON.parse(fs.readFileSync(DATA_FILE, "utf8"));
@@ -68,6 +77,91 @@ function clamp(value, min = 0, max = 100) {
   }
 
   return Math.max(min, Math.min(max, number));
+}
+
+function randomInt(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+function boundedRandomStat(range) {
+  const min = clamp(range[0], 1, 99);
+  const max = clamp(range[1], min, 99);
+  return randomInt(min, max);
+}
+
+function statRangesForBuilding(building) {
+  const ranges = {
+    electricity: [...defaultStatRanges.electricity],
+    water: [...defaultStatRanges.water],
+    structure: [...defaultStatRanges.structure],
+    fireRisk: [...defaultStatRanges.fireRisk],
+    pollution: [...defaultStatRanges.pollution]
+  };
+
+  switch (normalize(building.category)) {
+    case "industry":
+      ranges.electricity = [50, 82];
+      ranges.water = [50, 82];
+      ranges.structure = [58, 82];
+      ranges.fireRisk = [22, 46];
+      ranges.pollution = [52, 78];
+      break;
+    case "powerplant":
+      ranges.electricity = [52, 78];
+      ranges.water = [50, 76];
+      ranges.structure = [58, 82];
+      ranges.fireRisk = [24, 48];
+      ranges.pollution = [54, 82];
+      break;
+    case "hospital":
+      ranges.electricity = [70, 92];
+      ranges.water = [70, 92];
+      ranges.structure = [70, 92];
+      ranges.fireRisk = [12, 30];
+      ranges.pollution = [18, 38];
+      break;
+    case "school":
+      ranges.electricity = [68, 90];
+      ranges.water = [68, 90];
+      ranges.structure = [68, 90];
+      ranges.fireRisk = [12, 32];
+      ranges.pollution = [16, 38];
+      break;
+    case "house":
+    case "apartment":
+      ranges.electricity = [72, 94];
+      ranges.water = [70, 92];
+      ranges.structure = [72, 94];
+      ranges.fireRisk = [8, 28];
+      ranges.pollution = [10, 34];
+      break;
+    case "work":
+    case "shop":
+      ranges.electricity = [60, 86];
+      ranges.water = [58, 84];
+      ranges.structure = [64, 88];
+      ranges.fireRisk = [12, 34];
+      ranges.pollution = [18, 46];
+      break;
+    case "pleasure":
+      ranges.electricity = [58, 84];
+      ranges.water = [62, 88];
+      ranges.structure = [52, 82];
+      ranges.fireRisk = [14, 36];
+      ranges.pollution = [18, 44];
+      break;
+  }
+
+  return ranges;
+}
+
+function randomizeBuildingStats(building) {
+  const ranges = statRangesForBuilding(building);
+  building.electricity = boundedRandomStat(ranges.electricity);
+  building.water = boundedRandomStat(ranges.water);
+  building.structure = boundedRandomStat(ranges.structure);
+  building.fireRisk = boundedRandomStat(ranges.fireRisk);
+  building.pollution = boundedRandomStat(ranges.pollution);
 }
 
 function parseBoolean(value) {
@@ -99,10 +193,12 @@ function ensureBuildingState(source) {
 
 function resetStartupState(source = buildings) {
   for (const building of source) {
+    randomizeBuildingStats(building);
     building.incidents = [];
     building.electricitySupplyCut = false;
     building.waterSupplyCut = false;
     delete building.lastReport;
+    delete building.lastFix;
     delete building.lastFlowControl;
   }
 

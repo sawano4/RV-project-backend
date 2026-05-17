@@ -7,30 +7,14 @@
     "posX": 168.1,
     "posY": 0,
     "posZ": 181.7,
-    "electricity": 0,
-    "water": 0,
-    "structure": 0,
-    "fireRisk": 100,
-    "pollution": 100,
-    "incidents": [
-      "ToxicSmog",
-      "StructuralHazard"
-    ],
+    "electricity": 94,
+    "water": 76,
+    "structure": 73,
+    "fireRisk": 19,
+    "pollution": 30,
+    "incidents": [],
     "electricitySupplyCut": false,
-    "waterSupplyCut": false,
-    "lastFix": {
-      "incidentType": "PowerOutage",
-      "role": "Staff",
-      "source": "ar-mobile",
-      "at": "2026-05-17T18:03:48.130Z"
-    },
-    "lastReport": {
-      "incidentType": "StructuralHazard",
-      "role": "System",
-      "source": "backend-auto",
-      "rawQrPayload": "",
-      "at": "2026-05-17T19:48:10.155Z"
-    }
+    "waterSupplyCut": false
   },
   {
     "name": "Building_Super Market",
@@ -40,24 +24,14 @@
     "posX": 30,
     "posY": 0,
     "posZ": 90.9,
-    "electricity": 0,
-    "water": 0,
-    "structure": 0,
-    "fireRisk": 100,
-    "pollution": 100,
-    "incidents": [
-      "FireAlert",
-      "ToxicSmog"
-    ],
+    "electricity": 85,
+    "water": 66,
+    "structure": 70,
+    "fireRisk": 22,
+    "pollution": 34,
+    "incidents": [],
     "electricitySupplyCut": false,
-    "waterSupplyCut": false,
-    "lastReport": {
-      "incidentType": "ToxicSmog",
-      "role": "System",
-      "source": "backend-auto",
-      "rawQrPayload": "",
-      "at": "2026-05-17T19:33:04.178Z"
-    }
+    "waterSupplyCut": false
   },
   {
     "name": "Billel's House",
@@ -67,30 +41,14 @@
     "posX": 100,
     "posY": 0,
     "posZ": 182,
-    "electricity": 0,
-    "water": 0,
-    "structure": 0,
-    "fireRisk": 100,
-    "pollution": 100,
-    "incidents": [
-      "ToxicSmog",
-      "WaterLeak"
-    ],
-    "lastFix": {
-      "incidentType": "FireAlert",
-      "role": "Staff",
-      "source": "ar-mobile",
-      "at": "2026-05-17T15:50:16.510Z"
-    },
+    "electricity": 83,
+    "water": 82,
+    "structure": 78,
+    "fireRisk": 22,
+    "pollution": 14,
+    "incidents": [],
     "electricitySupplyCut": false,
-    "waterSupplyCut": false,
-    "lastReport": {
-      "incidentType": "WaterLeak",
-      "role": "System",
-      "source": "backend-auto",
-      "rawQrPayload": "",
-      "at": "2026-05-17T19:44:08.700Z"
-    }
+    "waterSupplyCut": false
   },
   {
     "name": "Nelson Mondela Stadium",
@@ -100,23 +58,14 @@
     "posX": 150,
     "posY": 0,
     "posZ": 87.4,
-    "electricity": 0,
-    "water": 0,
-    "structure": 0,
-    "fireRisk": 100,
-    "pollution": 100,
-    "incidents": [
-      "WaterLeak"
-    ],
+    "electricity": 69,
+    "water": 84,
+    "structure": 79,
+    "fireRisk": 35,
+    "pollution": 40,
+    "incidents": [],
     "electricitySupplyCut": false,
-    "waterSupplyCut": false,
-    "lastReport": {
-      "incidentType": "WaterLeak",
-      "role": "System",
-      "source": "backend-auto",
-      "rawQrPayload": "",
-      "at": "2026-05-17T18:59:48.550Z"
-    }
+    "waterSupplyCut": false
   },
   {
     "name": "hopital",
@@ -126,23 +75,14 @@
     "posX": 243,
     "posY": 0,
     "posZ": -16.1,
-    "electricity": 0,
-    "water": 0,
-    "structure": 0,
-    "fireRisk": 100,
-    "pollution": 100,
-    "incidents": [
-      "FireAlert"
-    ],
+    "electricity": 88,
+    "water": 80,
+    "structure": 77,
+    "fireRisk": 30,
+    "pollution": 34,
+    "incidents": [],
     "electricitySupplyCut": false,
-    "waterSupplyCut": false,
-    "lastReport": {
-      "incidentType": "FireAlert",
-      "role": "System",
-      "source": "backend-auto",
-      "rawQrPayload": "",
-      "at": "2026-05-17T19:22:59.561Z"
-    }
+    "waterSupplyCut": false
   },
   {
     "name": "Building Sky_small_color03",
@@ -152,23 +92,14 @@
     "posX": 75.7,
     "posY": 0,
     "posZ": 26.84,
-    "electricity": 0,
-    "water": 0,
-    "structure": 0,
-    "fireRisk": 100,
-    "pollution": 100,
-    "incidents": [
-      "PowerOutage"
-    ],
+    "electricity": 77,
+    "water": 79,
+    "structure": 79,
+    "fireRisk": 16,
+    "pollution": 16,
+    "incidents": [],
     "electricitySupplyCut": false,
-    "waterSupplyCut": false,
-    "lastReport": {
-      "incidentType": "PowerOutage",
-      "role": "System",
-      "source": "backend-auto",
-      "rawQrPayload": "",
-      "at": "2026-05-17T19:29:02.600Z"
-    }
+    "waterSupplyCut": false
   },
   {
     "name": "Building_House_03_color03",
@@ -178,30 +109,14 @@
     "posX": 161.4,
     "posY": 0,
     "posZ": 43.3,
-    "electricity": 0,
-    "water": 0,
-    "structure": 0,
-    "fireRisk": 100,
-    "pollution": 100,
-    "incidents": [
-      "PowerOutage",
-      "ToxicSmog"
-    ],
-    "lastFix": {
-      "incidentType": "ToxicSmog",
-      "role": "Staff",
-      "source": "ar-mobile",
-      "at": "2026-05-14T23:27:33.522Z"
-    },
+    "electricity": 69,
+    "water": 81,
+    "structure": 87,
+    "fireRisk": 27,
+    "pollution": 22,
+    "incidents": [],
     "electricitySupplyCut": false,
-    "waterSupplyCut": false,
-    "lastReport": {
-      "incidentType": "ToxicSmog",
-      "role": "System",
-      "source": "backend-auto",
-      "rawQrPayload": "",
-      "at": "2026-05-17T19:39:06.490Z"
-    }
+    "waterSupplyCut": false
   },
   {
     "name": "Building_Fast Food (1)",
@@ -211,31 +126,14 @@
     "posX": 135.1,
     "posY": 0,
     "posZ": -14.5,
-    "electricity": 0,
-    "water": 0,
-    "structure": 0,
-    "fireRisk": 100,
-    "pollution": 100,
-    "incidents": [
-      "WaterLeak",
-      "StructuralHazard",
-      "FireAlert"
-    ],
-    "lastFix": {
-      "incidentType": "StructuralHazard",
-      "role": "Staff",
-      "source": "ar-mobile",
-      "at": "2026-05-14T23:25:32.496Z"
-    },
+    "electricity": 75,
+    "water": 70,
+    "structure": 88,
+    "fireRisk": 23,
+    "pollution": 35,
+    "incidents": [],
     "electricitySupplyCut": false,
-    "waterSupplyCut": false,
-    "lastReport": {
-      "incidentType": "FireAlert",
-      "role": "System",
-      "source": "backend-auto",
-      "rawQrPayload": "",
-      "at": "2026-05-17T19:59:15.688Z"
-    }
+    "waterSupplyCut": false
   },
   {
     "name": "nour el imane's House",
@@ -245,24 +143,14 @@
     "posX": 20.9,
     "posY": 0,
     "posZ": 215.4,
-    "electricity": 0,
-    "water": 0,
-    "structure": 0,
-    "fireRisk": 100,
-    "pollution": 100,
-    "incidents": [
-      "PowerOutage",
-      "FireAlert"
-    ],
+    "electricity": 93,
+    "water": 83,
+    "structure": 87,
+    "fireRisk": 27,
+    "pollution": 34,
+    "incidents": [],
     "electricitySupplyCut": false,
-    "waterSupplyCut": false,
-    "lastReport": {
-      "incidentType": "FireAlert",
-      "role": "System",
-      "source": "backend-auto",
-      "rawQrPayload": "",
-      "at": "2026-05-17T20:04:18.518Z"
-    }
+    "waterSupplyCut": false
   },
   {
     "name": "SARL POWER HOUSE",
@@ -272,11 +160,11 @@
     "posX": 138.47,
     "posY": 0,
     "posZ": 14.94,
-    "electricity": 0,
-    "water": 0,
-    "structure": 0,
-    "fireRisk": 100,
-    "pollution": 100,
+    "electricity": 64,
+    "water": 59,
+    "structure": 60,
+    "fireRisk": 27,
+    "pollution": 76,
     "incidents": [],
     "electricitySupplyCut": false,
     "waterSupplyCut": false
@@ -289,24 +177,14 @@
     "posX": 70,
     "posY": 0,
     "posZ": 220,
-    "electricity": 0,
-    "water": 0,
-    "structure": 0,
-    "fireRisk": 100,
-    "pollution": 100,
-    "incidents": [
-      "PowerOutage",
-      "ToxicSmog"
-    ],
+    "electricity": 89,
+    "water": 68,
+    "structure": 84,
+    "fireRisk": 32,
+    "pollution": 21,
+    "incidents": [],
     "electricitySupplyCut": false,
-    "waterSupplyCut": false,
-    "lastReport": {
-      "incidentType": "ToxicSmog",
-      "role": "System",
-      "source": "backend-auto",
-      "rawQrPayload": "",
-      "at": "2026-05-17T19:42:07.724Z"
-    }
+    "waterSupplyCut": false
   },
   {
     "name": "Building_Books Shop",
@@ -316,30 +194,14 @@
     "posX": 104.19,
     "posY": 0,
     "posZ": 15.94,
-    "electricity": 0,
-    "water": 0,
-    "structure": 0,
-    "fireRisk": 100,
-    "pollution": 100,
-    "incidents": [
-      "StructuralHazard",
-      "PowerOutage"
-    ],
-    "lastFix": {
-      "incidentType": "FireAlert",
-      "role": "Staff",
-      "source": "ar-mobile",
-      "at": "2026-05-17T07:48:28.982Z"
-    },
+    "electricity": 66,
+    "water": 75,
+    "structure": 73,
+    "fireRisk": 17,
+    "pollution": 21,
+    "incidents": [],
     "electricitySupplyCut": false,
-    "waterSupplyCut": false,
-    "lastReport": {
-      "incidentType": "PowerOutage",
-      "role": "System",
-      "source": "backend-auto",
-      "rawQrPayload": "",
-      "at": "2026-05-17T19:58:15.087Z"
-    }
+    "waterSupplyCut": false
   },
   {
     "name": "Building Sky_big_color01",
@@ -349,23 +211,14 @@
     "posX": 16.87,
     "posY": 0,
     "posZ": 76.06,
-    "electricity": 0,
-    "water": 0,
-    "structure": 0,
-    "fireRisk": 100,
-    "pollution": 100,
-    "incidents": [
-      "ToxicSmog"
-    ],
+    "electricity": 73,
+    "water": 64,
+    "structure": 77,
+    "fireRisk": 32,
+    "pollution": 27,
+    "incidents": [],
     "electricitySupplyCut": false,
-    "waterSupplyCut": false,
-    "lastReport": {
-      "incidentType": "ToxicSmog",
-      "role": "System",
-      "source": "backend-auto",
-      "rawQrPayload": "",
-      "at": "2026-05-17T19:11:55.362Z"
-    }
+    "waterSupplyCut": false
   },
   {
     "name": "Building_Clothing",
@@ -375,24 +228,14 @@
     "posX": 104.29,
     "posY": 0,
     "posZ": 104.11,
-    "electricity": 0,
-    "water": 0,
-    "structure": 0,
-    "fireRisk": 100,
-    "pollution": 100,
-    "incidents": [
-      "StructuralHazard",
-      "WaterLeak"
-    ],
+    "electricity": 74,
+    "water": 79,
+    "structure": 74,
+    "fireRisk": 31,
+    "pollution": 28,
+    "incidents": [],
     "electricitySupplyCut": false,
-    "waterSupplyCut": false,
-    "lastReport": {
-      "incidentType": "WaterLeak",
-      "role": "System",
-      "source": "backend-auto",
-      "rawQrPayload": "",
-      "at": "2026-05-17T19:57:14.489Z"
-    }
+    "waterSupplyCut": false
   },
   {
     "name": "EL BARAKA MARKET",
@@ -402,23 +245,14 @@
     "posX": 207.5,
     "posY": 0,
     "posZ": -14.8,
-    "electricity": 0,
-    "water": 0,
-    "structure": 0,
-    "fireRisk": 100,
-    "pollution": 100,
-    "incidents": [
-      "WaterLeak"
-    ],
+    "electricity": 61,
+    "water": 60,
+    "structure": 80,
+    "fireRisk": 18,
+    "pollution": 27,
+    "incidents": [],
     "electricitySupplyCut": false,
-    "waterSupplyCut": false,
-    "lastReport": {
-      "incidentType": "WaterLeak",
-      "role": "System",
-      "source": "backend-auto",
-      "rawQrPayload": "",
-      "at": "2026-05-17T19:16:56.659Z"
-    }
+    "waterSupplyCut": false
   },
   {
     "name": "Natixis Algiers",
@@ -428,25 +262,14 @@
     "posX": 101.1,
     "posY": 0,
     "posZ": -16.4,
-    "electricity": 0,
-    "water": 0,
-    "structure": 0,
-    "fireRisk": 100,
-    "pollution": 100,
-    "incidents": [
-      "FireAlert",
-      "ToxicSmog",
-      "WaterLeak"
-    ],
+    "electricity": 86,
+    "water": 82,
+    "structure": 88,
+    "fireRisk": 32,
+    "pollution": 33,
+    "incidents": [],
     "electricitySupplyCut": false,
-    "waterSupplyCut": false,
-    "lastReport": {
-      "incidentType": "WaterLeak",
-      "role": "System",
-      "source": "backend-auto",
-      "rawQrPayload": "",
-      "at": "2026-05-17T20:03:17.791Z"
-    }
+    "waterSupplyCut": false
   },
   {
     "name": "MUNICIPALITY",
@@ -456,23 +279,14 @@
     "posX": 189.8,
     "posY": 0,
     "posZ": -17.2,
-    "electricity": 0,
-    "water": 0,
-    "structure": 0,
-    "fireRisk": 100,
-    "pollution": 100,
-    "incidents": [
-      "PowerOutage"
-    ],
+    "electricity": 66,
+    "water": 72,
+    "structure": 67,
+    "fireRisk": 13,
+    "pollution": 46,
+    "incidents": [],
     "electricitySupplyCut": false,
-    "waterSupplyCut": false,
-    "lastReport": {
-      "incidentType": "PowerOutage",
-      "role": "System",
-      "source": "backend-auto",
-      "rawQrPayload": "",
-      "at": "2026-05-17T19:17:57.170Z"
-    }
+    "waterSupplyCut": false
   },
   {
     "name": "Building_Coffee Shop (1)",
@@ -482,31 +296,14 @@
     "posX": 67.8,
     "posY": 0,
     "posZ": -15.9,
-    "electricity": 0,
-    "water": 0,
-    "structure": 0,
-    "fireRisk": 100,
-    "pollution": 100,
-    "incidents": [
-      "ToxicSmog",
-      "FireAlert",
-      "PowerOutage"
-    ],
-    "lastFix": {
-      "incidentType": "ToxicSmog",
-      "role": "Staff",
-      "source": "ar-mobile",
-      "at": "2026-05-16T09:19:13.097Z"
-    },
+    "electricity": 80,
+    "water": 90,
+    "structure": 71,
+    "fireRisk": 14,
+    "pollution": 22,
+    "incidents": [],
     "electricitySupplyCut": false,
-    "waterSupplyCut": false,
-    "lastReport": {
-      "incidentType": "PowerOutage",
-      "role": "System",
-      "source": "backend-auto",
-      "rawQrPayload": "",
-      "at": "2026-05-17T19:54:13.006Z"
-    }
+    "waterSupplyCut": false
   },
   {
     "name": "hopital mustapha bacha",
@@ -516,11 +313,11 @@
     "posX": 28.53,
     "posY": 0,
     "posZ": 45,
-    "electricity": 0,
-    "water": 0,
-    "structure": 0,
-    "fireRisk": 100,
-    "pollution": 100,
+    "electricity": 91,
+    "water": 87,
+    "structure": 82,
+    "fireRisk": 16,
+    "pollution": 26,
     "incidents": [],
     "electricitySupplyCut": false,
     "waterSupplyCut": false
@@ -533,25 +330,14 @@
     "posX": 164.62,
     "posY": 0,
     "posZ": 29.1,
-    "electricity": 0,
-    "water": 0,
-    "structure": 0,
-    "fireRisk": 100,
-    "pollution": 100,
-    "incidents": [
-      "StructuralHazard",
-      "WaterLeak",
-      "FireAlert"
-    ],
+    "electricity": 78,
+    "water": 84,
+    "structure": 81,
+    "fireRisk": 27,
+    "pollution": 32,
+    "incidents": [],
     "electricitySupplyCut": false,
-    "waterSupplyCut": false,
-    "lastReport": {
-      "incidentType": "FireAlert",
-      "role": "System",
-      "source": "backend-auto",
-      "rawQrPayload": "",
-      "at": "2026-05-17T19:41:07.241Z"
-    }
+    "waterSupplyCut": false
   },
   {
     "name": "Jews juice",
@@ -561,23 +347,14 @@
     "posX": 107.26,
     "posY": 0,
     "posZ": 46.07,
-    "electricity": 0,
-    "water": 0,
-    "structure": 0,
-    "fireRisk": 100,
-    "pollution": 100,
-    "incidents": [
-      "PowerOutage"
-    ],
+    "electricity": 71,
+    "water": 78,
+    "structure": 80,
+    "fireRisk": 33,
+    "pollution": 34,
+    "incidents": [],
     "electricitySupplyCut": false,
-    "waterSupplyCut": false,
-    "lastReport": {
-      "incidentType": "PowerOutage",
-      "role": "System",
-      "source": "backend-auto",
-      "rawQrPayload": "",
-      "at": "2026-05-17T19:00:49.032Z"
-    }
+    "waterSupplyCut": false
   },
   {
     "name": "SPA EL MASNAA",
@@ -587,11 +364,11 @@
     "posX": 208.4,
     "posY": 0,
     "posZ": 35.59,
-    "electricity": 0,
-    "water": 0,
-    "structure": 0,
-    "fireRisk": 100,
-    "pollution": 100,
+    "electricity": 73,
+    "water": 69,
+    "structure": 66,
+    "fireRisk": 34,
+    "pollution": 65,
     "incidents": [],
     "electricitySupplyCut": false,
     "waterSupplyCut": false
@@ -604,24 +381,14 @@
     "posX": 141.9,
     "posY": 0,
     "posZ": 215,
-    "electricity": 0,
-    "water": 0,
-    "structure": 0,
-    "fireRisk": 100,
-    "pollution": 100,
-    "incidents": [
-      "StructuralHazard",
-      "FireAlert"
-    ],
+    "electricity": 92,
+    "water": 71,
+    "structure": 73,
+    "fireRisk": 28,
+    "pollution": 19,
+    "incidents": [],
     "electricitySupplyCut": false,
-    "waterSupplyCut": false,
-    "lastReport": {
-      "incidentType": "FireAlert",
-      "role": "System",
-      "source": "backend-auto",
-      "rawQrPayload": "",
-      "at": "2026-05-17T19:32:03.822Z"
-    }
+    "waterSupplyCut": false
   },
   {
     "name": "Building_Fruits  Shop",
@@ -631,24 +398,14 @@
     "posX": 15.74,
     "posY": 0,
     "posZ": 15.51,
-    "electricity": 0,
-    "water": 0,
-    "structure": 0,
-    "fireRisk": 100,
-    "pollution": 100,
-    "incidents": [
-      "StructuralHazard",
-      "WaterLeak"
-    ],
+    "electricity": 69,
+    "water": 68,
+    "structure": 71,
+    "fireRisk": 13,
+    "pollution": 45,
+    "incidents": [],
     "electricitySupplyCut": false,
-    "waterSupplyCut": false,
-    "lastReport": {
-      "incidentType": "WaterLeak",
-      "role": "System",
-      "source": "backend-auto",
-      "rawQrPayload": "",
-      "at": "2026-05-17T19:52:12.022Z"
-    }
+    "waterSupplyCut": false
   },
   {
     "name": "SALIM TOUTES OPTIONS",
@@ -658,26 +415,14 @@
     "posX": 138.91,
     "posY": 0,
     "posZ": 40.31,
-    "electricity": 0,
-    "water": 0,
-    "structure": 0,
-    "fireRisk": 100,
-    "pollution": 100,
-    "incidents": [
-      "StructuralHazard",
-      "PowerOutage",
-      "FireAlert",
-      "WaterLeak"
-    ],
+    "electricity": 81,
+    "water": 62,
+    "structure": 70,
+    "fireRisk": 19,
+    "pollution": 42,
+    "incidents": [],
     "electricitySupplyCut": false,
-    "waterSupplyCut": false,
-    "lastReport": {
-      "incidentType": "WaterLeak",
-      "role": "System",
-      "source": "backend-auto",
-      "rawQrPayload": "",
-      "at": "2026-05-17T20:02:17.280Z"
-    }
+    "waterSupplyCut": false
   },
   {
     "name": "Gas Station",
@@ -687,23 +432,14 @@
     "posX": 206.7,
     "posY": 0,
     "posZ": 87.3,
-    "electricity": 0,
-    "water": 0,
-    "structure": 0,
-    "fireRisk": 100,
-    "pollution": 100,
-    "incidents": [
-      "FireAlert"
-    ],
+    "electricity": 67,
+    "water": 73,
+    "structure": 78,
+    "fireRisk": 19,
+    "pollution": 31,
+    "incidents": [],
     "electricitySupplyCut": false,
-    "waterSupplyCut": false,
-    "lastReport": {
-      "incidentType": "FireAlert",
-      "role": "System",
-      "source": "backend-auto",
-      "rawQrPayload": "",
-      "at": "2026-05-17T19:13:55.827Z"
-    }
+    "waterSupplyCut": false
   },
   {
     "name": "Rayane's House",
@@ -713,25 +449,14 @@
     "posX": 78.4,
     "posY": 0,
     "posZ": 184.1,
-    "electricity": 0,
-    "water": 0,
-    "structure": 0,
-    "fireRisk": 100,
-    "pollution": 100,
-    "incidents": [
-      "WaterLeak",
-      "FireAlert",
-      "StructuralHazard"
-    ],
+    "electricity": 74,
+    "water": 76,
+    "structure": 89,
+    "fireRisk": 18,
+    "pollution": 23,
+    "incidents": [],
     "electricitySupplyCut": false,
-    "waterSupplyCut": false,
-    "lastReport": {
-      "incidentType": "StructuralHazard",
-      "role": "System",
-      "source": "backend-auto",
-      "rawQrPayload": "",
-      "at": "2026-05-17T20:00:16.210Z"
-    }
+    "waterSupplyCut": false
   },
   {
     "name": "DAR EL KHEIR",
@@ -741,31 +466,14 @@
     "posX": 217,
     "posY": 0,
     "posZ": 181.7,
-    "electricity": 0,
-    "water": 0,
-    "structure": 0,
-    "fireRisk": 100,
-    "pollution": 100,
-    "incidents": [
-      "FireAlert",
-      "WaterLeak",
-      "PowerOutage"
-    ],
-    "lastFix": {
-      "incidentType": "WaterLeak",
-      "role": "Staff",
-      "source": "ar-mobile",
-      "at": "2026-05-14T23:12:34.798Z"
-    },
+    "electricity": 75,
+    "water": 72,
+    "structure": 75,
+    "fireRisk": 11,
+    "pollution": 29,
+    "incidents": [],
     "electricitySupplyCut": false,
-    "waterSupplyCut": false,
-    "lastReport": {
-      "incidentType": "PowerOutage",
-      "role": "System",
-      "source": "backend-auto",
-      "rawQrPayload": "",
-      "at": "2026-05-17T19:47:09.809Z"
-    }
+    "waterSupplyCut": false
   },
   {
     "name": "Building_Chicken Shop (1)",
@@ -775,24 +483,14 @@
     "posX": 9.64,
     "posY": 0,
     "posZ": -14.67,
-    "electricity": 0,
-    "water": 0,
-    "structure": 0,
-    "fireRisk": 100,
-    "pollution": 100,
-    "incidents": [
-      "WaterLeak",
-      "StructuralHazard"
-    ],
+    "electricity": 84,
+    "water": 59,
+    "structure": 74,
+    "fireRisk": 17,
+    "pollution": 26,
+    "incidents": [],
     "electricitySupplyCut": false,
-    "waterSupplyCut": false,
-    "lastReport": {
-      "incidentType": "StructuralHazard",
-      "role": "System",
-      "source": "backend-auto",
-      "rawQrPayload": "",
-      "at": "2026-05-17T19:45:09.063Z"
-    }
+    "waterSupplyCut": false
   },
   {
     "name": "OUTCORP",
@@ -802,24 +500,14 @@
     "posX": 227.9,
     "posY": 0,
     "posZ": -16,
-    "electricity": 0,
-    "water": 0,
-    "structure": 0,
-    "fireRisk": 100,
-    "pollution": 100,
-    "incidents": [
-      "FireAlert",
-      "ToxicSmog"
-    ],
+    "electricity": 66,
+    "water": 74,
+    "structure": 76,
+    "fireRisk": 23,
+    "pollution": 46,
+    "incidents": [],
     "electricitySupplyCut": false,
-    "waterSupplyCut": false,
-    "lastReport": {
-      "incidentType": "ToxicSmog",
-      "role": "System",
-      "source": "backend-auto",
-      "rawQrPayload": "",
-      "at": "2026-05-17T20:01:16.765Z"
-    }
+    "waterSupplyCut": false
   },
   {
     "name": "Building_Residential_color03",
@@ -829,24 +517,14 @@
     "posX": 41.7,
     "posY": 0,
     "posZ": 75.1,
-    "electricity": 0,
-    "water": 0,
-    "structure": 0,
-    "fireRisk": 100,
-    "pollution": 100,
-    "incidents": [
-      "FireAlert",
-      "StructuralHazard"
-    ],
+    "electricity": 63,
+    "water": 67,
+    "structure": 67,
+    "fireRisk": 34,
+    "pollution": 38,
+    "incidents": [],
     "electricitySupplyCut": false,
-    "waterSupplyCut": false,
-    "lastReport": {
-      "incidentType": "StructuralHazard",
-      "role": "System",
-      "source": "backend-auto",
-      "rawQrPayload": "",
-      "at": "2026-05-17T19:50:11.025Z"
-    }
+    "waterSupplyCut": false
   },
   {
     "name": "Adriane's House",
@@ -856,27 +534,14 @@
     "posX": 75.76,
     "posY": 0,
     "posZ": 74.44,
-    "electricity": 0,
-    "water": 7,
-    "structure": 70,
-    "fireRisk": 64,
-    "pollution": 100,
+    "electricity": 89,
+    "water": 70,
+    "structure": 74,
+    "fireRisk": 19,
+    "pollution": 33,
     "incidents": [],
     "electricitySupplyCut": false,
-    "waterSupplyCut": false,
-    "lastReport": {
-      "incidentType": "StructuralHazard",
-      "role": "Staff",
-      "source": "ar-mobile",
-      "rawQrPayload": "{\"\\ufeffname\": \"Building_Chicken Shop\", \"stableID\": \"513392176\", \"shortID\": \"3520\", \"category\": \"House\", \"posX\": \"75.76\", \"posY\": \"0.00\", \"posZ\": \"74.44\"}",
-      "at": "2026-05-17T19:54:14.281Z"
-    },
-    "lastFix": {
-      "incidentType": "StructuralHazard",
-      "role": "Staff",
-      "source": "ar-mobile",
-      "at": "2026-05-17T19:54:18.330Z"
-    }
+    "waterSupplyCut": false
   },
   {
     "name": "Building_House_01_color03",
@@ -886,24 +551,14 @@
     "posX": 190.9,
     "posY": 0,
     "posZ": 215,
-    "electricity": 0,
-    "water": 0,
-    "structure": 0,
-    "fireRisk": 100,
-    "pollution": 100,
-    "incidents": [
-      "StructuralHazard",
-      "PowerOutage"
-    ],
+    "electricity": 81,
+    "water": 75,
+    "structure": 86,
+    "fireRisk": 22,
+    "pollution": 34,
+    "incidents": [],
     "electricitySupplyCut": false,
-    "waterSupplyCut": false,
-    "lastReport": {
-      "incidentType": "PowerOutage",
-      "role": "System",
-      "source": "backend-auto",
-      "rawQrPayload": "",
-      "at": "2026-05-17T19:55:13.440Z"
-    }
+    "waterSupplyCut": false
   },
   {
     "name": "LAARBI BEN MHIDI SCHOOL",
@@ -913,25 +568,14 @@
     "posX": 155.2,
     "posY": 0,
     "posZ": -15.7,
-    "electricity": 0,
-    "water": 0,
-    "structure": 0,
-    "fireRisk": 100,
-    "pollution": 100,
-    "incidents": [
-      "FireAlert",
-      "WaterLeak",
-      "PowerOutage"
-    ],
+    "electricity": 81,
+    "water": 85,
+    "structure": 92,
+    "fireRisk": 13,
+    "pollution": 19,
+    "incidents": [],
     "electricitySupplyCut": false,
-    "waterSupplyCut": false,
-    "lastReport": {
-      "incidentType": "PowerOutage",
-      "role": "System",
-      "source": "backend-auto",
-      "rawQrPayload": "",
-      "at": "2026-05-17T19:56:13.953Z"
-    }
+    "waterSupplyCut": false
   },
   {
     "name": "Building_Auto Service",
@@ -941,24 +585,14 @@
     "posX": 40.57,
     "posY": 0,
     "posZ": 17.2,
-    "electricity": 0,
-    "water": 0,
-    "structure": 0,
-    "fireRisk": 100,
-    "pollution": 100,
-    "incidents": [
-      "StructuralHazard",
-      "WaterLeak"
-    ],
+    "electricity": 65,
+    "water": 71,
+    "structure": 84,
+    "fireRisk": 25,
+    "pollution": 38,
+    "incidents": [],
     "electricitySupplyCut": false,
-    "waterSupplyCut": false,
-    "lastReport": {
-      "incidentType": "WaterLeak",
-      "role": "System",
-      "source": "backend-auto",
-      "rawQrPayload": "",
-      "at": "2026-05-17T19:49:10.530Z"
-    }
+    "waterSupplyCut": false
   },
   {
     "name": "RESIDENCY LE BONHEUR",
@@ -968,11 +602,11 @@
     "posX": 119.3,
     "posY": 0,
     "posZ": -17.14,
-    "electricity": 0,
-    "water": 0,
-    "structure": 0,
-    "fireRisk": 100,
-    "pollution": 100,
+    "electricity": 72,
+    "water": 68,
+    "structure": 79,
+    "fireRisk": 27,
+    "pollution": 18,
     "incidents": [],
     "electricitySupplyCut": false,
     "waterSupplyCut": false
@@ -985,23 +619,13 @@
     "posX": 21.3,
     "posY": 0,
     "posZ": 183.7,
-    "electricity": 0,
-    "water": 0,
-    "structure": 0,
-    "fireRisk": 100,
-    "pollution": 100,
-    "incidents": [
-      "PowerOutage",
-      "WaterLeak"
-    ],
+    "electricity": 79,
+    "water": 81,
+    "structure": 85,
+    "fireRisk": 23,
+    "pollution": 33,
+    "incidents": [],
     "electricitySupplyCut": false,
-    "waterSupplyCut": false,
-    "lastReport": {
-      "incidentType": "WaterLeak",
-      "role": "System",
-      "source": "backend-auto",
-      "rawQrPayload": "",
-      "at": "2026-05-17T19:46:09.467Z"
-    }
+    "waterSupplyCut": false
   }
 ]
